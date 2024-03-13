@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_one"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Registrate"/>
+        <item android:id="@+id/nav_item_two"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Seguimiento Embarazo"/>
+        <item android:id="@+id/nav_item_three"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Calendario de Citas"/>
+        <item android:id="@+id/nav_item_four"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Medicion y Pruebas"/>
+        <item android:id="@+id/nav_item_five"
+            android:icon="@drawable/abc_vector_test"
+            android:title="Diario de Sintomas"/>
+    </group>
+
+    <item android:title="Extras">
+        <menu>
+            <item android:id="@+id/nav_item_six"
+                android:icon="@drawable/abc_vector_test"
+                android:title="Consejos y Recomendaciones"/>
+            <item android:id="@+id/nav_item_seven"
+                android:icon="@drawable/abc_vector_test"
+                android:title="Recordatorios y Alertas"/>
+        </menu>
+    </item>
+
+</menu>
